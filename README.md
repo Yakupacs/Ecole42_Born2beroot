@@ -364,7 +364,7 @@ dictcheck = 1
 
 **Getting system information every 10 minutes**:
 ```
-# crontab -e
+# crontab -u root -e
 */10 * * * * bash /your/monitoring.sh_path
 ```
 <br>
