@@ -411,3 +411,21 @@ wall "
         #Sudo : $SUDOCNT cmd
 ```
 <br>
+
+**See cron status**:
+```
+# sudo systemctl status cron
+```
+<br>
+
+**Stop the cron**:
+```
+# sudo systemctl stop cron
+```
+<br>
+
+**Disable the cron**:
+```
+# sudo systemctl disable cron
+```
+<br>
