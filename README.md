@@ -375,6 +375,12 @@ dictcheck = 1
 ```
 <br>
 
+**Open the Monitoring.sh**:
+```
+# vim /usr/local/sbin/monitoring.sh
+```
+<br>
+
 **Edit file "Monitoring.sh"**:
 ```
 ARCH=$(uname -a)
