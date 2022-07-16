@@ -369,12 +369,6 @@ dictcheck = 1
 ```
 <br>
 
-**Get disk signature**:
-```
-# shasum <your_virtual_machine>.vdi
-```
-<br>
-
 **Open the Monitoring.sh**:
 ```
 # vim /usr/local/sbin/monitoring.sh
@@ -433,5 +427,11 @@ wall "
 **Disable the cron**:
 ```
 # sudo systemctl disable cron
+```
+<br>
+
+**Get disk signature**:
+```
+# shasum <your_virtual_machine>.vdi
 ```
 <br>
