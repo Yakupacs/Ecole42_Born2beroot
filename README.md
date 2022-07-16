@@ -167,7 +167,7 @@ This is Debian 11, codenamed bullseye, netinst, for 64-bit PC (amd64) [Download]
 
 **Accept outgoing requests.**:
 ```
-# ufw default accept outgoing
+# ufw default allow outgoing
 ```
 <br>
 
